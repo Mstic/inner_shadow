@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E0097F120B4073600B1AFCE /* 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E0097F020B4073600B1AFCE /* 13.jpg */; };
+		1E0097F420B40F0900B1AFCE /* XMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0097F320B40F0900B1AFCE /* XMView.m */; };
 		1EA87FC920B3DEFE0018E25B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA87FC820B3DEFE0018E25B /* AppDelegate.m */; };
 		1EA87FCC20B3DEFE0018E25B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA87FCB20B3DEFE0018E25B /* ViewController.m */; };
 		1EA87FCF20B3DEFE0018E25B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA87FCD20B3DEFE0018E25B /* Main.storyboard */; };
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E0097F020B4073600B1AFCE /* 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpg; sourceTree = "<group>"; };
+		1E0097F220B40F0900B1AFCE /* XMView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMView.h; sourceTree = "<group>"; };
+		1E0097F320B40F0900B1AFCE /* XMView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMView.m; sourceTree = "<group>"; };
 		1EA87FC420B3DEFE0018E25B /* 阴影demon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "阴影demon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EA87FC720B3DEFE0018E25B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1EA87FC820B3DEFE0018E25B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -105,11 +110,14 @@
 				1EA87FC820B3DEFE0018E25B /* AppDelegate.m */,
 				1EA87FCA20B3DEFE0018E25B /* ViewController.h */,
 				1EA87FCB20B3DEFE0018E25B /* ViewController.m */,
+				1E0097F220B40F0900B1AFCE /* XMView.h */,
+				1E0097F320B40F0900B1AFCE /* XMView.m */,
 				1EA87FCD20B3DEFE0018E25B /* Main.storyboard */,
 				1EA87FD020B3DEFE0018E25B /* Assets.xcassets */,
 				1EA87FD220B3DEFE0018E25B /* LaunchScreen.storyboard */,
 				1EA87FD520B3DEFE0018E25B /* Info.plist */,
 				1EA87FD620B3DEFE0018E25B /* main.m */,
+				1E0097F020B4073600B1AFCE /* 13.jpg */,
 			);
 			path = "阴影demon";
 			sourceTree = "<group>";
@@ -194,7 +202,7 @@
 		1EA87FBC20B3DEFE0018E25B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "吴俊明";
 				TargetAttributes = {
 					1EA87FC320B3DEFE0018E25B = {
@@ -239,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EA87FD420B3DEFE0018E25B /* LaunchScreen.storyboard in Resources */,
+				1E0097F120B4073600B1AFCE /* 13.jpg in Resources */,
 				1EA87FD120B3DEFE0018E25B /* Assets.xcassets in Resources */,
 				1EA87FCF20B3DEFE0018E25B /* Main.storyboard in Resources */,
 			);
@@ -268,6 +277,7 @@
 				1EA87FCC20B3DEFE0018E25B /* ViewController.m in Sources */,
 				1EA87FD720B3DEFE0018E25B /* main.m in Sources */,
 				1EA87FC920B3DEFE0018E25B /* AppDelegate.m in Sources */,
+				1E0097F420B40F0900B1AFCE /* XMView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +346,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -343,6 +354,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -391,6 +403,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -398,6 +411,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
